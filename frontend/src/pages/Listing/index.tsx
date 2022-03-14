@@ -4,7 +4,7 @@ import axios from "axios";
 import { BASE_URL } from "utils/requests";
 import { useEffect, useState } from "react";
 import { MoviePage } from "types/Movie";
-import { isContentEditable } from "@testing-library/user-event/dist/utils";
+
 export default function Listing() {
 
     const [pageNumber, setPageNumber] = useState(0);
